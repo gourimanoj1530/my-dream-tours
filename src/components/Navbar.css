@@ -1,0 +1,51 @@
+/* Navbar styling */
+.navbar {
+  background-color: #006769;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Logo styling */
+.navbar .logo {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Playwrite GB S', cursive;
+  color: yellow;
+}
+
+/* Navigation links styling */
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-links a {
+  background-color: yellow;
+  color: #006769;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid green;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* Specific button styling */
+.navbar .home-btn {
+  background-color: lightgray; /* Different color for home button */
+  color: #006769;
+}
+
+.navbar .contact-us-btn {
+  background-color: lightblue; /* Different color for contact us button */
+  color: #006769;
+}

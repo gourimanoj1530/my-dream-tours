@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.payment-wrapper {
+    background: url('/public/pexels-stephen-alicia-1315397-2716774.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; /* Ensures the wrapper takes the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(0, 103, 105, 0);
+    color: #E6FF94;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Playwrite GB S', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-container {
+    background-color: rgba(0, 103, 105, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #E6FF94;
+    margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #005f6b;
+    color: white;
+    font-size: 1em;
+}
+
+.form-container input::placeholder {
+    color: #e0e0e0;
+}
+
+.form-container button {
+    background-color: #E6FF94;
+    color: #006769;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}

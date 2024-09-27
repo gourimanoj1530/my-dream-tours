@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Solid background color */
+}
+
+.machu-picchu-wrapper {
+    background-color: #f4f4f4; /* Ensure it matches the desired background */
+    min-height: 100vh; /* Ensure it covers the full height */
+}
+
+.machu-picchu-header {
+    background-color: #006769;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.machu-picchu-logo {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Playwrite GB S', cursive;
+    color: #E6FF94;
+}
+
+.machu-picchu-contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.machu-picchu-contact-info div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.machu-picchu-main-content {
+    background: #076f74c4; /* Background color for main content */
+    color: #054d05;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.machu-picchu-main-content h2 {
+    margin-top: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.machu-picchu-day {
+    background: #75b79e;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;           /* Use flexbox for layout */
+    justify-content: space-between; /* Ensure text and image are spaced apart */
+    align-items: center;     /* Align items vertically in the center */
+    text-align: left;        /* Ensure text is aligned to the left */
+}
+
+.machu-picchu-text-content {
+    width: 50%; /* Adjust text content width */
+}
+
+.machu-picchu-day-image {
+    width: 45%;              /* Adjust image width */
+    height: 200px;           /* Fixed height for the image */
+    background-size: cover;  /* Ensure the image covers the div */
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20px;       /* Space between text and image */
+    align-self: flex-end;    /* Ensure the image is aligned to the right */
+}
+
+/* Background images applied to .machu-picchu-day-image */
+.machu-picchu-day1 .machu-picchu-day-image {
+    background-image: url('/public/machu_pichu_day1.jpg');
+}
+
+.machu-picchu-day2 .machu-picchu-day-image {
+    background-image: url('/public/machu_pichu_day2.jpg');
+}
+
+.machu-picchu-day3 .machu-picchu-day-image {
+    background-image: url('/public/machu_pichu_day3.jpg');
+}
+
+.machu-picchu-day4 .machu-picchu-day-image {
+    background-image: url('/public/machu_pichu_day4.jpg');
+}
+
+.machu-picchu-day5 .machu-picchu-day-image {
+    background-image: url('/public/machu_pichu_day5.jpg');
+}
+
+.machu-picchu-purchase-button {
+    background-color: yellow;
+    color: teal;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+    border: #006769;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.machu-picchu-purchase-button:hover {
+    background-color: rgba(228, 239, 22, 0.819);
+}

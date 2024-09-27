@@ -1,0 +1,74 @@
+/* Sign-in page styling */
+.sign-in-container {
+  height: 109%; /* Use 100vh to cover the full viewport height */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/public/pexels-asadphoto-3601453.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex; /* Center content vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Login container styling */
+.sign-in-form-container {
+  background: rgba(0, 128, 128, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 350px;
+}
+
+.sign-in-form-container h1 {
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+.sign-in-form-container input[type="text"],
+.sign-in-form-container input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #0cd57ac3;
+  color: yellow;
+}
+
+.sign-in-form-container a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.sign-in-form-container button {
+  background-color: rgb(17, 166, 34);
+  color: yellow;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(17, 166, 34);
+  cursor: pointer;
+}
+
+.sign-in-form-container button:hover {
+  background: yellow;
+  color: rgb(17, 166, 34);
+}
+
+.sign-in-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.sign-in-options input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.sign-in-options a {
+  text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+/* Container for the entire contact page */
+.app-contact-container {
+    height: 109vh; /* Page height slightly beyond the viewport */
+    background-color:#509a9a   ; /* Black background for the entire page */
+  }
+  
+  /* Full-width banner image */
+  .contact-banner {
+    background-image: url('/public/16.jpg'); /* Replace with the correct path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .banner-text p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
+  /* Contact Info Section */
+  .contact-info-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .contact-info-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info-section p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Solid background color */
+}
+
+.bali-wrapper {
+    background-color: #f4f4f4; /* Ensure it matches the desired background */
+    min-height: 100vh; /* Ensure it covers the full height */
+}
+
+.bali-header {
+    background-color: #006769;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.bali-logo {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Playwrite GB S', cursive;
+    color: #E6FF94;
+}
+
+.bali-contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.bali-contact-info div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bali-main-content {
+    background: #076f74c4; /* Background color for main content */
+    color: #054d05;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bali-main-content h2 {
+    margin-top: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.bali-day h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.bali-day p {
+    font-size: 1.1em;
+}
+
+.bali-purchase-button {
+    background-color: yellow;
+    color: teal;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+    border: #006769;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.bali-purchase-button:hover {
+    background-color: rgba(228, 239, 22, 0.819);
+}
+
+/* Bali Day Container */
+.bali-day {
+    background: #75b79e;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;           /* Use flexbox for layout */
+    justify-content: space-between; /* Ensure text and image are spaced apart */
+    align-items: center;     /* Align items vertically in the center */
+    text-align: left;        /* Ensure text is aligned to the left */
+}
+
+.bali-text-content {
+    width: 50%; /* Adjust text content width */
+}
+
+.bali-day-image {
+    width: 45%;              /* Adjust image width */
+    height: 200px;           /* Fixed height for the image */
+    background-size: cover;  /* Ensure the image covers the div */
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20px;       /* Space between text and image */
+    align-self: flex-end;    /* Ensure the image is aligned to the right */
+}
+
+/* Background images applied to .bali-day-image */
+.bali-day1 .bali-day-image {
+    background-image: url('/public/pexels-betchtyblades-2480608.jpg');
+}
+
+.bali-day2 .bali-day-image {
+    background-image: url('/public/pexels-aronvisuals-1694621.jpg');
+}
+
+.bali-day3 .bali-day-image {
+    background-image: url('/public/pexels-dika-pebriyanta-89809943-9094948.jpg');
+}
+
+.bali-day4 .bali-day-image {
+    background-image: url('/public/16.jpg');
+}
