@@ -54,6 +54,17 @@ const MachuPicchu = () => {
           </div>
           <div className="machu-picchu-day-image"></div>
         </div>
+
+        {/* Day 6 */}
+        <div className="machu-picchu-day machu-picchu-day6">
+          <div className="machu-picchu-text-content">
+            <h3>Day 6: Cusco Culture & Departure</h3>
+            <p><strong>Morning:</strong> Explore San Blas neighborhood with its artisan shops and galleries. Visit the San Pedro Market for local snacks.</p>
+            <p><strong>Afternoon:</strong> Visit Qorikancha (Temple of the Sun) and enjoy a relaxed lunch sampling Peruvian cuisine.</p>
+            <p><strong>Evening:</strong> Transfer to the airport for your onward flight, or enjoy an extra evening in Cusco if your schedule allows.</p>
+          </div>
+          <div className="machu-picchu-day-image"></div>
+        </div>
         <Link to="/tour_places/payment/machupichu" className="btn explore-btn">Pay</Link>
       </div>
     </div>

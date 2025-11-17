@@ -65,6 +65,17 @@ const Dubai = () => {
           <div className="dubai-day-image"></div>
         </div>
 
+        {/* Day 6 */}
+        <div className="dubai-day dubai-day6">
+          <div className="dubai-text-content">
+            <h3>Day 6: Abu Dhabi Day Trip</h3>
+            <p><strong>Morning:</strong> Drive to Abu Dhabi to visit the Sheikh Zayed Grand Mosque and admire its stunning architecture.</p>
+            <p><strong>Afternoon:</strong> Explore the Louvre Abu Dhabi and, time permitting, visit Qasr Al Watan (Presidential Palace) to learn about Emirati culture.</p>
+            <p><strong>Evening:</strong> Return to Dubai for an evening at leisure or transfer to the airport if on departure day.</p>
+          </div>
+          <div className="dubai-day-image"></div>
+        </div>
+
         {/* Purchase Button */}
         <Link to="/tour_places/payment/dubai" className="btn explore-btn">Pay</Link>
       </div>

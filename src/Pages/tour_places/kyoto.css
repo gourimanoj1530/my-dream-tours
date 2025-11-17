@@ -79,6 +79,11 @@ body, html {
     background-image: url('/public/kyoto-nijo-castle-207583.jpg'); /* Replace with correct path */
 }
 
+/* Day 6 image for Nara day trip */
+.kyoto-day6 .kyoto-day-image {
+    background-image: url('/public/pexels-michalmarek-1774389.jpg');
+}
+
 .kyoto-purchase-button {
     background-color: yellow;
     color: teal;

@@ -120,3 +120,8 @@ html, body {
 .bali-day4 .bali-day-image {
     background-image: url('/public/16.jpg');
 }
+
+/* Day 5 image for Nusa Penida excursion */
+.bali-day5 .bali-day-image {
+    background-image: url('/public/pexels-jeshoots-com-147458-442579.jpg');
+}

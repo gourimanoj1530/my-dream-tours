@@ -54,6 +54,17 @@ const Paris = () => {
           <div className="paris-day-image"></div>
         </div>
 
+        {/* Day 5 */}
+        <div className="paris-day paris-day5">
+          <div className="paris-text-content">
+            <h3>Day 5: Giverny & Monet's Garden (Day Trip)</h3>
+            <p><strong>Morning:</strong> Take a short train ride to Vernon and visit Claude Monet's house and stunning gardens in Giverny.</p>
+            <p><strong>Afternoon:</strong> Explore the water lily ponds and the famous Japanese bridge. Return to Paris and visit Musée de l'Orangerie if time permits.</p>
+            <p><strong>Evening:</strong> Last-minute shopping in Le Marais or a relaxed dinner before departure.</p>
+          </div>
+          <div className="paris-day-image"></div>
+        </div>
+
         {/* Purchase Button */}
         <Link to="/tour_places/payment/paris" className="btn explore-btn">Pay</Link>
       </div>

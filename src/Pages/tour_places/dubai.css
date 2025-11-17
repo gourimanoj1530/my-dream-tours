@@ -124,3 +124,8 @@ html, body {
 .dubai-day5 .dubai-day-image {
     background-image: url('/public/dubai_day-5.jpg'); /* Replace with correct path */
 }
+
+/* Day 6 image for Abu Dhabi day trip */
+.dubai-day6 .dubai-day-image {
+    background-image: url('/public/pexels-valeriiamiller-2587004.jpg');
+}

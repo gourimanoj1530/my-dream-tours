@@ -81,6 +81,11 @@ html, body {
     background-image: url('/public/paris-day-1.jpg'); /* Replace with actual image link */
 }
 
+/* Day 5 image for Giverny day trip */
+.paris-day5 .paris-day-image {
+    background-image: url('/public/pexels-aronvisuals-1694621.jpg');
+}
+
 .paris-day2 .paris-day-image {
     background-image: url('/public/paris-day-2.jpg'); /* Replace with actual image link */
 }

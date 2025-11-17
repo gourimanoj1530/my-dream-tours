@@ -97,6 +97,11 @@ body, html {
     background-image: url('/public/machu_pichu_day5.jpg');
 }
 
+/* Day 6 image for Cusco cultural day */
+.machu-picchu-day6 .machu-picchu-day-image {
+    background-image: url('/public/Mountain View Hike.jpeg');
+}
+
 .machu-picchu-purchase-button {
     background-color: yellow;
     color: teal;

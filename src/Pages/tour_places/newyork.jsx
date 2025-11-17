@@ -43,6 +43,17 @@ const NewYork = () => {
           <div className="newyork-day-image"></div>
         </div>
 
+        {/* Day 4 */}
+        <div className="newyork-day newyork-day4">
+          <div className="newyork-text-content">
+            <h3>Day 4: Brooklyn & High Line</h3>
+            <p><strong>Morning:</strong> Walk the Brooklyn Bridge and explore DUMBO for iconic photo spots and coffee shops.</p>
+            <p><strong>Afternoon:</strong> Stroll the High Line, visit Chelsea Market for lunch and boutique shopping.</p>
+            <p><strong>Evening:</strong> Enjoy skyline views from Brooklyn Heights Promenade and dinner at a local eatery.</p>
+          </div>
+          <div className="newyork-day-image"></div>
+        </div>
+
         {/* Purchase Button */}
         <Link to="/tour_places/payment/newyork" className="btn explore-btn">Pay</Link>
       </div>
