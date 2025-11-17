@@ -11,8 +11,8 @@ body, html {
 }
 
 .machu-picchu-header {
-    background-color: #006769;
-    color: #fff;
+    background-color: #f7fafa;
+    color: #171515;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,8 +38,8 @@ body, html {
 }
 
 .machu-picchu-main-content {
-    background: #076f74c4; /* Background color for main content */
-    color: #054d05;
+    background: #fafdfd;
+    color: #040504;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
@@ -52,7 +52,7 @@ body, html {
 }
 
 .machu-picchu-day {
-    background: #75b79e;
+    background: #e3e6e5;
     margin: 20px 0;
     padding: 15px;
     border-radius: 10px;

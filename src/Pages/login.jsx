@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './SignIn.css'; // Ensure the path is correct
+import './SignIn.css';
 
 const SignIn = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -19,16 +19,29 @@ const SignIn = () => {
 
     if (response.ok) {
       alert('Login successful');
-      navigate('/home'); // Redirect to Home
+      navigate('/home');
     } else {
       alert('Login failed');
     }
   };
 
   return (
-    <div className="sign-in-container">
+    <div
+      className="sign-in-container"
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundImage: "url('/abstract-blur-airport-terminal-interior.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="sign-in-form-container">
         <h1>WELCOME BACK</h1>
+
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -37,6 +50,7 @@ const SignIn = () => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
+
           <input
             type="password"
             placeholder="PASSWORD :"
@@ -44,18 +58,21 @@ const SignIn = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+
           <div className="sign-in-options">
             <label>
               <input type="checkbox" /> SAVE PASSWORD
             </label>
             <Link to="/forgot-password">FORGOT PASSWORD</Link>
           </div>
+
           <button type="submit">SUBMIT</button>
         </form>
+
         <div>
           <Link to="#">
             <img
-              src="https://www.google.com/images/icons/product/chrome-48.png"
+              src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000"
               alt="Google"
               className="google-icon"
             />{' '}

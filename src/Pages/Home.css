@@ -1,80 +1,99 @@
+/* Global Styling */
 body {
-  background-color: #FFFACD; /* Light mellow-yellow (Lemon Chiffon) */
+  background: linear-gradient(135deg, #E9F8F9, #f9f9f9); /* Soft pastel aqua gradient */
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-attachment: fixed; /* Keeps background fixed while scrolling */
+  font-family: "Poppins", sans-serif;
+  background-attachment: fixed;
 }
 
+/* Home Page Container */
 .home-page-content {
-  background-color: #A7BEAE; /* Same mellow-yellow color */
+  background-color: transparent;
   min-height: 100vh;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
+/* Content wrapper */
 .content-container {
-  padding: 20px;
+  padding: 20px 40px;
 }
 
+/* Card Grid Layout */
 .card-row {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping for responsiveness */
-  justify-content: space-between; /* Space between cards */
+  flex-wrap: wrap;
+  gap: 25px; /* Modern spacing between cards */
+  justify-content: center;
 }
 
+/* Individual Card */
 .travel-card {
-  background-color: #66A5AD; /* White card background for a clean contrast */
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-  margin-bottom: 20px;
-  flex: 0 1 calc(33.333% - 20px); /* Responsive width for three cards in a row */
-  box-sizing: border-box; /* Include padding and border in width calculation */
-  display: flex; /* Use flexbox to align contents */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  background: #ffffff; /* Clean white for contrast */
+  border-radius: 15px;
+  width: 320px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.travel-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 22px rgba(0,0,0,0.12);
+}
+
+/* Card Image */
 .travel-card-img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 100%; /* Make image full width */
-  height:30cap; /* Maintain aspect ratio */
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
 
+/* Card Body */
 .travel-card-body {
-  padding: 15px; /* Add some padding */
-  text-align: center; /* Center the text */
-  display: flex; /* Use flexbox to center button */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items */
-  margin: top 30c; /* Push to the bottom of the card */
+  padding: 10px;
+  text-align: center;
 }
 
+/* Title */
 .travel-card-title {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #364F6B; /* Muted navy */
 }
 
+/* Button */
 .explore-btn {
-  background-color: rgba(255, 255, 0, 0.516); /* Standard primary button color */
+  background: #000000; /* Pastel teal */
   border: none;
-  color: white; /* Button text color */
-  padding: 10px 15px; /* Button padding */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* No underline */
-  margin-top: 10px; /* Add margin for spacing */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  margin-top: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
-/* Media query for responsiveness */
+.explore-btn:hover {
+  background: #56C2A3;
+  transform: scale(1.05);
+}
+
+/* Responsive behavior */
 @media (max-width: 768px) {
   .travel-card {
-    flex: 0 1 calc(50% - 20px); /* Two cards in a row on smaller screens */
+    width: 46%;
   }
 }
 
 @media (max-width: 480px) {
   .travel-card {
-    flex: 0 1 100%; /* One card in a row on very small screens */
+    width: 100%;
   }
 }
-

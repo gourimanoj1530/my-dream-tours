@@ -1,23 +1,34 @@
 import React from 'react';
-import Navbar from '../components/Navbar'; // Import Navbar
-import './Home.css'; // Import your custom CSS
-import { Link, Routes, Route } from 'react-router-dom'; // Import Link and Routes for navigation
-import Bali from './tour_places/bali'; // Import Bali component
+import Navbar from '../components/Navbar';
+import './Home.css';
+import { Link, Routes, Route } from 'react-router-dom';
+import Bali from './tour_places/bali';
 import Kyoto from './tour_places/kyoto';
 import Dubai from './tour_places/dubai';
 import MachuPicchu from './tour_places/machupichu';
-import  Paris from './tour_places/paris';
+import Paris from './tour_places/paris';
 import NewYork from './tour_places/newyork';
 import PaymentDetails from './tour_places/payment';
-
-
 
 const Home = () => {
   return (
     <div className="home-page-content">
-      <Navbar /> {/* Use Navbar component */}
+      <Navbar />
+
+      {/* ⭐ ADD HERO SECTION HERE ⭐ */}
+      <section className="hero-container">
+        <h1 className="hero-title">TRAVEL</h1>
+        <p className="hero-subtitle">AND LEARN THE BEST WAY TO DO IT</p>
+
+        <Link to="/home">
+          <button className="hero-btn">START NOW</button>
+        </Link>
+      </section>
+      {/* ⭐ END HERO SECTION ⭐ */}
+
       <div className="content-container">
         <div className="card-row">
+
           {/* Kyoto Card */}
           <div className="travel-card">
             <img src="pexels-belle-co-99483-402028.jpg" className="travel-card-img" alt="Kyoto" />
@@ -31,7 +42,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Bali Card */}
+             {/* Bali Card */}
           <div className="travel-card">
             <img src="pexels-valeriiamiller-2587004.jpg" className="travel-card-img" alt="Bali" />
             <div className="travel-card-body">
@@ -101,16 +112,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* Define Routes for places */}
       <Routes>
         <Route path="/tour_places/bali" element={<Bali />} />
-        <Route path='/tour_places/kyoto' element={<Kyoto/>}/>
-        <Route path='/tour_places/dubai' element={<Dubai/>}/>
-        <Route path='/tour_places/machupichu' element={<MachuPicchu/>}/>
-        <Route path='/tour_places/paris' element={<Paris/>}/>
-        <Route path='/tour_places/newyork' element={<NewYork/>}/>
-        <Route path='/tour_places/payment' element={<PaymentDetails/>}/>
+        <Route path="/tour_places/kyoto" element={<Kyoto />} />
+        <Route path="/tour_places/dubai" element={<Dubai />} />
+        <Route path="/tour_places/machupichu" element={<MachuPicchu />} />
+        <Route path="/tour_places/paris" element={<Paris />} />
+        <Route path="/tour_places/newyork" element={<NewYork />} />
+        <Route path="/tour_places/payment" element={<PaymentDetails />} />
       </Routes>
     </div>
   );

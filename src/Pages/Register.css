@@ -1,69 +1,86 @@
-/* Registration page styling */
+/* Full page background */
 .registration-container {
-    height: 109%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('/public/pexels-asadphoto-3601453.jpg'); /* Ensure this path is correct */
-    background-size: cover;
-    background-position: center;
-  }
-  
-  /* Registration form container styling */
-  .registration-form-container {
-    background: rgba(0, 128, 128, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    width: 900px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .registration-form-container h1 {
-    color: yellow;
-    margin-bottom: 20px;
-  }
-  
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/public/pexels-fukajaz-31871910.jpg'); /* Correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers the form vertically */
+}
+
+/* Form card styling */
+.registration-form-container {
+  background: rgba(211, 231, 248, 0.75);
+  padding: 30px;
+  border-radius: 12px;
+  width: 900px;
+  max-width: 95%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.registration-form-container h1 {
+  color: rgb(43, 43, 28);
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* Row style */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+/* Form inputs */
+.row input,
+.row select {
+  width: calc(50% - 10px);
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffffc9;
+  color: rgb(43, 43, 28);
+  font-size: 15px;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(249, 249, 247);
+  padding: 12px 26px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: rgb(236, 202, 115);
+  color: black;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
   .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px; /* Adjust spacing between rows */
+    flex-direction: column;
   }
-  
+
   .row input,
   .row select {
-    width: calc(50% - 10px); /* Two columns per row */
-    padding: 10px;
-    margin: 5px; /* Space between fields */
-    border: none;
-    border-radius: 5px;
-    background-color: #0cd57ac3;
-    color: yellow;
+    width: 100%;
+    margin-bottom: 10px;
   }
-  
-  .row input[type="text"],
-  .row input[type="number"],
-  .row input[type="date"],
-  .row input[type="email"],
-  .row input[type="password"] {
-    width: calc(50% - 10px);
+
+  .registration-form-container {
+    width: 95%;
   }
-  
-  button {
-    background-color: rgb(17, 166, 34);
-    color: yellow;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 2px solid rgb(17, 166, 34);
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background: yellow;
-    color: rgb(17, 166, 34);
-  }
-  
+}

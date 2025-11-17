@@ -11,8 +11,8 @@ html, body {
 }
 
 .newyork-header {
-    background-color: #006769;
-    color: #fff;
+    background-color: #f8fbfb;
+    color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@ html, body {
     font-size: 2em;
     font-weight: bold;
     font-family: 'Playwrite GB S', cursive;
-    color: #E6FF94;
+    color: #ecf8c6;
 }
 
 .newyork-contact-info {
@@ -38,8 +38,8 @@ html, body {
 }
 
 .newyork-main-content {
-    background: #076f74c4; /* Background color for main content */
-    color: #054d05;
+    background: #fafdfd;
+    color: #040504;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
@@ -52,7 +52,7 @@ html, body {
 }
 
 .newyork-day {
-    background: #75b79e; /* Day background color */
+    background: #e3e6e5;/* Day background color */
     margin: 20px 0;
     padding: 15px;
     border-radius: 10px;

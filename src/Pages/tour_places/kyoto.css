@@ -11,8 +11,8 @@ body, html {
 }
 
 .kyoto-main-content {
-    background: #076f74c4;
-    color: #054d05;
+    background: #fafdfd;
+    color: #040504;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
@@ -25,7 +25,7 @@ body, html {
 }
 
 .kyoto-day {
-    background: #75b79e;
+    background: #e3e6e5;
     margin: 20px 0;
     padding: 15px;
     border-radius: 10px;

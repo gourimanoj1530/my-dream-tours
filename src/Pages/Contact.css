@@ -1,12 +1,12 @@
 /* Container for the entire contact page */
 .app-contact-container {
     height: 109vh; /* Page height slightly beyond the viewport */
-    background-color:#509a9a   ; /* Black background for the entire page */
+    background-color:#000000   ; /* Black background for the entire page */
   }
   
   /* Full-width banner image */
   .contact-banner {
-    background-image: url('/public/16.jpg'); /* Replace with the correct path */
+    background-image: url('/public/pexels-michalmarek-1774389.jpg'); /* Replace with the correct path */
     background-size: cover;
     background-position: center;
     height: 400px;

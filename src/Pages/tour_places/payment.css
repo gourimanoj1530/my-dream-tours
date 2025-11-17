@@ -27,7 +27,7 @@ body, html {
 }
 
 .form-container {
-    background-color: rgba(0, 103, 105, 0.7);
+    background-color: rgba(248, 251, 251, 0.7);
     padding: 20px;
     border-radius: 10px;
     width: 90%;
@@ -36,7 +36,7 @@ body, html {
 }
 
 .form-container h2 {
-    color: #E6FF94;
+    color: #010101;
     margin-bottom: 20px;
 }
 
@@ -47,7 +47,7 @@ body, html {
     margin: 10px 0;
     border: none;
     border-radius: 5px;
-    background-color: #005f6b;
+    background-color: #060606;
     color: white;
     font-size: 1em;
 }
@@ -57,8 +57,8 @@ body, html {
 }
 
 .form-container button {
-    background-color: #E6FF94;
-    color: #006769;
+    background-color: #181917;
+    color: #acc5c5;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;

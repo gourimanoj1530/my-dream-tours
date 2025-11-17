@@ -1,69 +1,104 @@
-/* Container for the entire app */
-.app-container {
-  height: 90%;
-  overflow-x: hidden;
-}
-
-/* Header and Navbar styling */
-.header, .navbar {
-  background-color: #006769;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  position: fixed;
-  top: 0;
-  left: 0;
+/* HERO SECTION */
+.hero-container {
   width: 100%;
-  z-index: 100;
-  box-sizing: border-box;
-}
-
-/* Logo styling */
-.header .logo, .navbar .logo {
-  font-size: 2em;
-  font-weight: bold;
-  font-family: 'Playwrite GB S', cursive;
-  color: yellow;
-}
-
-/* Contact info styling */
-.header .contact-info, .navbar .contact-info {
-  display: flex;
-  align-items: center;
-}
-
-.header .contact-info div, .navbar .contact-info div {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
-/* Button styling */
-.header .login, .header .register, .navbar .login-btn, .navbar .register-btn {
-  background-color: yellow;
-  color: #006769;
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  border: 2px solid green;
-  margin-left: 20px;
-  font-weight: bold;
-}
-
-/* Background image */
-.background-image {
-  width: 100%;
-  height: calc(100vh - 60px);
-  background-image: url('/public/pexels-jonathan-lassen-1263409-2404667.jpg'); /* Update path based on folder structure */
+  height: 100vh;               /* Full screen */
+  background-image: url("/public/pexels-riciardus-307008.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 60px; /* Offset for fixed header/navbar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 100px;          /* Space for navbar */
+  position: relative;
 }
 
-/* Removed Overlay styling */
+.hero-title {
+  font-size: 80px;
+  font-weight: 800;
+  letter-spacing: 10px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+.hero-btn {
+  margin-top: 25px;
+  padding: 14px 35px;
+  font-size: 18px;
+  background-color: #000;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* CARDS SECTION */
+.cards-container {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 14px;
+  padding-bottom: 22px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 14px 14px 0 0;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 22px;
+  color: #1f3d59;
+}
+
+.card p {
+  font-size: 15px;
+  padding: 0 15px;
+  margin: 10px 0 15px 0;
+  line-height: 1.4;
+}
+
+.learn-btn {
+  padding: 10px 25px;
+  background-color: #000000;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.learn-btn:hover {
+  background-color: #ece5e5;
+}

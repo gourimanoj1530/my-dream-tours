@@ -1,6 +1,6 @@
 /* Navbar styling */
 .navbar {
-  background-color: #006769;
+  background-color: #00676904;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -18,8 +18,8 @@
 .navbar .logo {
   font-size: 2em;
   font-weight: bold;
-  font-family: 'Playwrite GB S', cursive;
-  color: yellow;
+  font-family: 'Arial', cursive;
+  color: rgb(0, 0, 0);
 }
 
 /* Navigation links styling */
@@ -29,23 +29,23 @@
 }
 
 .navbar .nav-links a {
-  background-color: yellow;
-  color: #006769;
+  background-color: rgb(0, 0, 0);
+  color: #fafbfded;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-decoration: none;
-  border: 2px solid green;
+  border: 2px solid rgba(88, 122, 88, 0.308);
   margin-left: 20px;
   font-weight: bold;
 }
 
 /* Specific button styling */
 .navbar .home-btn {
-  background-color: lightgray; /* Different color for home button */
-  color: #006769;
+  background-color: rgb(0, 0, 0); /* Different color for home button */
+  color: #fdffff;
 }
 
 .navbar .contact-us-btn {
-  background-color: lightblue; /* Different color for contact us button */
-  color: #006769;
+  background-color: rgb(0, 0, 0); /* Different color for contact us button */
+  color: #e9f7f7;
 }

@@ -11,7 +11,7 @@ html, body {
 }
 
 .bali-header {
-    background-color: #006769;
+    background-color: #b6bdbd;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -38,8 +38,8 @@ html, body {
 }
 
 .bali-main-content {
-    background: #076f74c4; /* Background color for main content */
-    color: #054d05;
+    background: #eef5f5c4; /* Background color for main content */
+    color: #11341dee;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
@@ -62,7 +62,7 @@ html, body {
 
 .bali-purchase-button {
     background-color: yellow;
-    color: teal;
+    color: rgb(22, 45, 45);
     padding: 15px 30px;
     font-size: 1.2em;
     text-align: center;
@@ -80,7 +80,7 @@ html, body {
 
 /* Bali Day Container */
 .bali-day {
-    background: #75b79e;
+    background: #e8ebeb;
     margin: 20px 0;
     padding: 15px;
     border-radius: 10px;
