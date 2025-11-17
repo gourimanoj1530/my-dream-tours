@@ -98,6 +98,11 @@ html, body {
     background-position:0px;
 }
 
+/* Day 4 image for Brooklyn & High Line */
+.newyork-day4 .newyork-day-image {
+    background-image: url('/public/pexels-jonathan-lassen-1263409-2404667.jpg');
+}
+
 .newyork-purchase-button {
     background-color: yellow;
     color: teal;

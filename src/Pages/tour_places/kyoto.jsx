@@ -65,6 +65,17 @@ const Kyoto = () => {
           <div className="kyoto-day-image"></div>
         </div>
 
+        {/* Day 6 */}
+        <div className="kyoto-day kyoto-day6">
+          <div className="kyoto-text-content">
+            <h3>Day 6: Nara Day Trip & Departure</h3>
+            <p><strong>Morning:</strong> Take a short train ride to Nara. Visit Todai-ji Temple to see the giant Buddha and stroll through Nara Park to meet the friendly deer.</p>
+            <p><strong>Afternoon:</strong> Explore Kasuga Taisha Shrine and the Naramachi historic district. Enjoy a leisurely lunch of local specialties.</p>
+            <p><strong>Evening:</strong> Return to Kyoto for any last-minute shopping, then transfer to your onward journey or airport.</p>
+          </div>
+          <div className="kyoto-day-image"></div>
+        </div>
+
         {/* Purchase Button */}
         <Link to="/tour_places/payment/kyoto" className="btn explore-btn">Pay</Link>
       </div>

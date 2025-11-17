@@ -54,6 +54,17 @@ const Bali = () => {
           <div className="bali-day-image bali-day4"></div>
         </div>
 
+        {/* Day 5 */}
+        <div className="bali-day bali-day5">
+          <div className="bali-text-content">
+            <h3>Day 5: Nusa Penida Excursion</h3>
+            <p><strong>Morning:</strong> Take a fast boat to Nusa Penida and head to Kelingking Beach for iconic cliff views.</p>
+            <p><strong>Afternoon:</strong> Visit Angel's Billabong and Broken Beach, then relax at Crystal Bay.</p>
+            <p><strong>Evening:</strong> Return to Bali mainland, enjoy a seaside dinner and reflect on the island adventures.</p>
+          </div>
+          <div className="bali-day-image bali-day5"></div>
+        </div>
+
         {/* Purchase Button with Kyoto in the URL */}
         <Link to={`/tour_places/payment/bali`} className="btn explore-btn">Pay</Link>
       </div>
